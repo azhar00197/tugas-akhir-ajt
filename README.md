@@ -8,6 +8,7 @@ Universitas Brawijaya.
 
 - [Menyiapkan Server](#menyiapkan-server)
 - [Tugas 1: Instalasi dan Konfigurasi Mininet dan Ryu](#tugas-1-instalasi-dan-konfigurasi-mininet-dan-ryu)
+  - [Instalasi Mininet](#instalasi-mininet-dan-openflow)
 
 ## Menyiapkan Server
 
@@ -70,3 +71,13 @@ Server dibuat menggunakan layanan <abbr title="Elastic Compute Cloud">EC2</abbr>
     ![Izinkan TCP 8000-8001](https://fikrimus35.github.io/tugas-akhir-ajt/images/014-grant-tcp-8000-8001.webp)
 
 ## Tugas 1: Instalasi dan Konfigurasi Mininet dan Ryu
+
+### Instalasi Mininet dan OpenFlow
+
+1. Clone repositori Mininet
+
+   ![Clone mininet](https://fikrimus35.github.io/tugas-akhir-ajt/images/101-clone-mininet-repository.webp)
+
+2. Install Mininet dan OpenFlow dengan menjalankan **install.sh** pada direktori util repositori Mininet.
+
+   ![Install Mininet dan OpenFlow](https://fikrimus35.github.io/tugas-akhir-ajt/images/102-install-mininet.webp)

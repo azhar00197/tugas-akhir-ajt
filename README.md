@@ -53,4 +53,20 @@ Server dibuat menggunakan layanan <abbr title="Elastic Compute Cloud">EC2</abbr>
 
     ![Server berhasil dibuat](https://fikrimus35.github.io/tugas-akhir-ajt/images/010-server-created.webp)
 
+11. Buka konfigurasi Security Groups untuk mengizinkan input melalui port lainnya
+
+    ![Konfigurasi Security Groups](https://fikrimus35.github.io/tugas-akhir-ajt/images/011-security-groups.webp)
+
+12. Memilih **launch-wizard-3**, Security Group yang dipakai oleh server **Tugas Akhir**
+
+    ![Konfigurasi launch-wizard-3](https://fikrimus35.github.io/tugas-akhir-ajt/images/012-select-security-group.webp)
+
+13. Membuka daftar **Inbound Rules**
+
+    ![Edit Inbound Rules](https://fikrimus35.github.io/tugas-akhir-ajt/images/013-select-inbound-rules.webp)
+
+14. Izinkan input pada port TCP 8000 hingga 8001 dari 0.0.0.0/0
+
+    ![Izinkan TCP 8000-8001](https://fikrimus35.github.io/tugas-akhir-ajt/images/014-grant-tcp-8000-8001.webp)
+
 ## Tugas 1: Instalasi dan Konfigurasi Mininet dan Ryu

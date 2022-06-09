@@ -7,8 +7,10 @@ Universitas Brawijaya.
 ## Daftar Isi
 
 - [Menyiapkan Server](#menyiapkan-server)
-- [Tugas 1: Instalasi dan Konfigurasi Mininet dan Ryu](#tugas-1-instalasi-dan-konfigurasi-mininet-dan-ryu)
+- [Tugas 1: Instalasi dan Konfigurasi Mininet, Ryu, dan Flow Manager](#tugas-1-instalasi-dan-konfigurasi-mininet-ryu-dan-flow-manager)
   - [Instalasi Mininet](#instalasi-mininet-dan-openflow)
+  - [Instalasi Ryu](#instalasi-ryu)
+  - [Instalasi Flow Manager](#instalasi-flow-manager)
 
 ## Menyiapkan Server
 
@@ -70,7 +72,7 @@ Server dibuat menggunakan layanan <abbr title="Elastic Compute Cloud">EC2</abbr>
 
     ![Izinkan TCP 8000-8001](https://fikrimus35.github.io/tugas-akhir-ajt/images/014-grant-tcp-8000-8001.webp)
 
-## Tugas 1: Instalasi dan Konfigurasi Mininet dan Ryu
+## Tugas 1: Instalasi dan Konfigurasi Mininet, Ryu, dan Flow Manager
 
 ### Instalasi Mininet dan OpenFlow
 
@@ -81,3 +83,19 @@ Server dibuat menggunakan layanan <abbr title="Elastic Compute Cloud">EC2</abbr>
 2. Install Mininet dan OpenFlow dengan menjalankan **install.sh** pada direktori util repositori Mininet.
 
    ![Install Mininet dan OpenFlow](https://fikrimus35.github.io/tugas-akhir-ajt/images/102-install-mininet.webp)
+
+### Instalasi Ryu
+
+1. Clone repository Ryu
+
+   ![Clone ryu](https://fikrimus35.github.io/tugas-akhir-ajt/images/103-clone-ryu.webp)
+
+2. Install ryu menggunakan `pip install`.
+
+   ![Install ryu](https://fikrimus35.github.io/tugas-akhir-ajt/images/104-install-ryu.webp)
+
+### Instalasi Flow Manager
+
+1. Clone repository Flow Manager
+
+   ![Clone flow manager](https://fikrimus35.github.io/tugas-akhir-ajt/images/105-clone-flow-manager.webp)
